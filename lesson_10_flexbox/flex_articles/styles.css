@@ -1,8 +1,9 @@
 * {
   box-sizing: border-box;
 }
-/* header {
-} */
+header {
+  text-align: center;
+}
 
 .article {
   margin: 8px;

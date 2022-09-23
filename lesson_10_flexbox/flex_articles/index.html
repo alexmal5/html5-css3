@@ -13,12 +13,12 @@
 
     <style>
       body {
-        display: flex;
-        flex-grow: 1;
-        flex-wrap: wrap;
-        justify-content: center;
+        /* display: flex;
+        flex-wrap: wrap; */
       }
       header {
+        display: flex;
+        justify-content: center;
       }
 
       .article {
@@ -26,6 +26,13 @@
         padding: 16px;
         background-color: bisque;
         flex-basis: 300px;
+        flex-shrink: 1;
+        flex-grow: 1;
+      }
+
+      .articles-list {
+        display: flex;
+        flex-wrap: wrap;
       }
     </style>
   </head>

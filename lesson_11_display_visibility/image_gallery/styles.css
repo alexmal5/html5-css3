@@ -8,11 +8,10 @@ body {
 }
 .gallery {
   display: flex;
-}
-.gallery:hover {
   overflow: auto;
   cursor: all-scroll;
 }
+
 img {
   margin: 8px;
 }

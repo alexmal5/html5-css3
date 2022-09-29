@@ -14,15 +14,13 @@
         display: block;
         margin: 0px auto;
         max-width: 100%;
-        filter: opacity(0.5);
+        position: relative;
       }
-      .image:hover {
-        filter: opacity(1);
-        cursor: pointer;
-      }
+
       .image-button {
         text-align: center;
         width: 200px;
+        height: 50px;
         background-color: bisque;
         font-size: 12px;
         text-transform: uppercase;
@@ -30,6 +28,12 @@
         position: absolute;
         top: calc(50% - 25px);
         left: calc(50% - 100px);
+        filter: opacity(0.5);
+      }
+
+      .image-button:hover {
+        filter: opacity(1);
+        cursor: pointer;
       }
     </style>
   </head>

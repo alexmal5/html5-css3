@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .image-container {
+        margin: 50px auto;
+        display: block;
+        text-align: center;
+      }
+      .tree {
+        max-width: 100%;
+        border-radius: 20px;
+      }
+      .gallery {
+        display: flex;
+      }
+      .cart {
+        margin: 16px;
+        box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+      }
+      .cart-text {
+        line-height: 30px;
+        text-align: center;
+        text-transform: lowercase;
+      }
+      .opacity {
+        filter: opacity(50%);
+      }
+      .blur {
+        filter: blur(4px);
+      }
+      .invert {
+        filter: invert(100%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        class="tree"
+        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/big.jpeg"
+        alt="tree"
+      />
+    </div>
+    <div class="gallery">
+      <figure class="cart">
+        <img
+          class="opacity"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="mountains-opacity"
+        />
+        <figcaption class="cart-text">opacity</figcaption>
+      </figure>
+
+      <figure class="cart">
+        <img
+          class="blur"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="mountains-blur"
+        />
+        <figcaption class="cart-text">blur</figcaption>
+      </figure>
+
+      <figure class="cart">
+        <img
+          class="invert"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/task1/small.jpg"
+          alt="mountains-invert"
+        />
+        <figcaption class="cart-text">invert</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

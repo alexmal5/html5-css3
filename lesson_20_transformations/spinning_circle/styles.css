@@ -5,8 +5,6 @@
 .container {
   display: flex;
   height: 100vh;
-  align-items: center;
-  justify-content: center;
 }
 .spinner-text {
   font-family: monospace;
@@ -19,6 +17,7 @@
   align-items: center;
   justify-content: center;
   margin: auto;
+  flex-direction: column;
 }
 @keyframes blinking {
   0% {

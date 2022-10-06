@@ -1,18 +1,20 @@
 * {
   box-sizing: border-box;
 }
-body {
+
+.container {
   display: flex;
   height: 100vh;
-}
-.container {
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 .spinner-text {
   font-family: monospace;
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s infinite linear;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes blinking {
   0% {
@@ -42,7 +44,9 @@ body {
   border: 4px solid lightgrey;
   border-top: black solid;
   border-radius: 50%;
-  margin: auto;
+  /* margin: auto; */
   margin-bottom: 8px;
   animation: circle 2s linear;
+  align-items: center;
+  justify-content: center;
 }

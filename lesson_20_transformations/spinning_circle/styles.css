@@ -13,8 +13,12 @@
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s infinite linear;
+}
+.spinner {
+  display: flex;
   align-items: center;
   justify-content: center;
+  margin: auto;
 }
 @keyframes blinking {
   0% {
@@ -47,6 +51,4 @@
   margin: auto;
   margin-bottom: 8px;
   animation: circle 2s linear;
-  align-items: center;
-  justify-content: center;
 }

@@ -29,6 +29,8 @@ body {
   width: 60%;
   padding: 0.5em;
   font-size: 1.25em;
+}
+.units-list {
   line-height: 1.75em;
 }
 .news {
@@ -37,6 +39,7 @@ body {
 }
 .main {
   display: flex;
+  flex: 1;
 }
 .css-units {
   color: #8b0000;

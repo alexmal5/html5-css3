@@ -64,6 +64,17 @@
         text-decoration: none;
         color: #ffffff;
       }
+      @media screen and (min-width: 601px) {
+        button {
+          display: none;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .navigation {
+          display: none;
+        }
+      }
     </style>
   </head>
 
@@ -77,7 +88,7 @@
     </header>
     <main class="main">
       <nav class="navigation">
-        <!-- <source srcset=".navigation:hidden" media="(min-width: 599px)" /> -->
+        <!-- <source srcset="navigation:hidden" media="(min-width: 599px)" /> -->
         <ul class="nav-list">
           <li class="nav-list-item">
             <a class="nav-list-link" href="#">Responsive images</a>

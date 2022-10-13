@@ -46,6 +46,7 @@ img {
 }
 .main {
   display: flex;
+  flex: 1;
 }
 .css-units {
   color: #8b0000;
